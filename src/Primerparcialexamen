@@ -116,3 +116,16 @@ public class Hospital{
 
     }
 
+    public static void Cargarpruebadoctor() {
+        doctor.add(new Doctor("dr. Juan perez", "4265646", "15/23/2023", "Cancer"));
+        doctor.add(new Doctor("dr. Guiterraz", "42656246", "15/23/2023", "Lepra"));
+    }
+    }
+    private static Paciente buscarpaciendni(String dniBuscar) {
+        for (Paciente paciente : paciente) {
+            if (paciente.DNI.equals(dniBuscar)) {}
+
+                return paciente;
+            }
+        }
+        return null;}
